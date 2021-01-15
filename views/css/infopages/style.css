@@ -1,0 +1,19 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap');.infotext{
+    font-family: 'Comfortaa', sans-serif;
+    font-size:30px;
+    display:inline-block;
+    margin:0px;
+    padding:0px;
+}
+
+.paratext{
+    font-family: 'Kalam', sans-serif;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size:20px;
+    color: black;
+    text-decoration: none;
+
+}

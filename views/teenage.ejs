@@ -1,0 +1,45 @@
+<%- include("./partials/header") %>
+
+
+<%- include("./pointsboard2") %>
+ 
+    <a href="/money" class="btn btn-danger">Money</a>
+    <a href="/saving" class="btn btn-danger">Savings</a>
+    <a href="/work" class="btn btn-danger">Work</a>
+    <br>
+        
+ 
+</body>
+
+
+
+<%- include("./partials/totalscore.js") %>
+
+
+<!--
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
+    $(function() {
+      
+            var id =$("#username").val();
+            var data = {
+                username: $("#username").val(),
+                points: $("#totalscore").val()
+            }
+            $.ajax({
+                method: "PUT",
+                url: '/miniage/' + id + "?_method=PUT",
+                dataType: 'json',
+                data: data
+            }).success(function(data){
+                updateData.append("<p>Response: Data saved!</p>");
+                console.log("Successful!" + data);
+            }).fail(function(data){
+                console.log("Oops not working" + data);
+            });
+        
+    })
+</script>
+
+-->
+
+<%- include("./partials/footer") %>

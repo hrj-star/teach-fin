@@ -1,0 +1,25 @@
+[
+    {
+      "question": "What is called as saving money ?",
+      "choice1": "To spend money",
+      "choice2": "Save and plan money",
+      "choice3": "To lend money",
+     
+      "answer": 2
+    },
+    {
+      "question": "If Shop A sells pencil for 2 and Shop B for 5 , and you bought from Shop A, how much did you save ?",
+      "choice1": "0",
+      "choice2": "3",
+      "choice3": "1",
+      "answer": 2
+    },
+    {
+      "question": "How would you save money ?",
+      "choice1": "Party all time ",
+      "choice2": "Have a Piggy Bank",
+      "choice3": "Spent all money in buying toffies",
+      
+      "answer": 2
+    }
+  ]

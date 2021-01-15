@@ -1,0 +1,41 @@
+<%- include("./partials/header") %>
+
+
+
+    <div style=" float: right">
+       
+        <a href="/logout" class="btn btn-danger">Logout</a>
+
+        <% users.forEach(function(user,index){ %>
+
+        <div class="div">
+            <h4 id="username">Welcome <%= user.username %>   to MiniAge Learnings ! </h4>
+  
+        </div>
+        
+      
+        <div style="border-radius: 30px;width:300px;padding:15px;border:5px solid  rgb(86, 165, 235, 0.25);margin:15px;margin-bottom:500px;overflow:auto;">
+        <p class="text" style="margin:0px;padding:0px;font-size:25px;"> Total Points  </p>
+            
+        <img src="/static/img/coin.gif" alt="Points" width="80" style="display:inline-block;padding-right:1px;" ><h2 class="hud-main-text" id="totalscore">0</h2>
+        <br>
+    
+    <p class="text" style="margin:10px;margin-bottom:0px;padding:0px;font-size:25px;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Daily Check-In </font></font></p>
+    <p class="text" style="margin:0px;padding:0px;font-size:70px;display:inline-block;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔥</font></font></p>
+    <p class="text" style="margin:0px;padding-left:20px;font-size:70px;display:inline-block;color:orange;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> <%= user.dailycheckin %></font></font></p>
+    
+ 
+    <% }) %>
+    </div>
+    <br>
+        
+ 
+</body>
+
+
+
+<%- include("./partials/totalscore.js") %>
+
+
+
+<%- include("./partials/footer") %>
