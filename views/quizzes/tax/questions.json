@@ -1,0 +1,27 @@
+
+[
+    {
+      "question": "Is not paying tax  ?",
+      "choice1": "A crime",
+      "choice2": "Okay",
+      "choice3": "A duty",
+     
+      "answer": 1
+    },
+    {
+      "question": "Types of taxes ?",
+      "choice1": "Direct Tax",
+      "choice2": "Indect Tax",
+      "choice3": "All of the above",
+      "answer": 3
+    },
+
+     {
+      "question": "Full form of GST ?",
+      "choice1": "Goods and Services Tax",
+      "choice2": "General Sales Tax",
+      "choice3": "Government Sales Tax",
+      "answer": 1
+    }
+   
+  ]

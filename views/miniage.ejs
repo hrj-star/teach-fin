@@ -1,13 +1,56 @@
-<%- include("./partials/header") %>
+<%- include("./partials/header2") %>
 
-<a href="/pointsboard" ></a>
+
+
+
+<div style="display: inline-block; float: left;">
+<br> 
+<img src="static/img/boy.png" style="width:120px;padding:15px;" align="middle" alt="Go !">
+<p class="infotext">  🔖 Let's dive into your lessons !</p>
+<br>
+<br>
+<div class="divbox">
+<a href="/money" class="infotext">Money</a> 
+<br>
+<br>
+<a href="/saving" class="infotext">Saving</a> 
+<br>
+    <br>
+<a href="/work" class="infotext">Work</a> 
+<br>
+    <br>
+</div>
+
+<div class="divbox">
+    <a href="/spending" class="infotext">Spending</a> 
+    <br>
+    <br>
+    <a href="/budgeting" class="infotext">Budgeting</a> 
+    <br>
+        <br>
+    <a href="/work" class="infotext">Shopping</a> 
+    <br>
+        <br>
+    </div>
+
+
+    <div class="divbox">
+       
+        <a href="/economy_teenage" class="infotext">Debt</a> 
+        <br>
+        <br>
+        <a href="/saving" class="infotext">Interest</a> 
+        <br>
+        <br>
+        <a href="/work" class="infotext">Economy</a> 
+        <br>
+            <br>
+        </div>
+
+
+</div>
 <%- include("./pointsboard") %>
-    
-    <a href="/money" class="btn btn-danger">Money</a>
-    <a href="/saving" class="btn btn-danger">Savings</a>
-    <a href="/work" class="btn btn-danger">Work</a>
-
-
+ 
     <br>
         
  
@@ -18,30 +61,6 @@
 <%- include("./partials/totalscore.js") %>
 
 
-<!--
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js">
-    $(function() {
-      
-            var id =$("#username").val();
-            var data = {
-                username: $("#username").val(),
-                points: $("#totalscore").val()
-            }
-            $.ajax({
-                method: "PUT",
-                url: '/miniage/' + id + "?_method=PUT",
-                dataType: 'json',
-                data: data
-            }).success(function(data){
-                updateData.append("<p>Response: Data saved!</p>");
-                console.log("Successful!" + data);
-            }).fail(function(data){
-                console.log("Oops not working" + data);
-            });
-        
-    })
-</script>
 
--->
 
 <%- include("./partials/footer") %>

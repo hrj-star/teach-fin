@@ -1,0 +1,25 @@
+[
+    {
+      "question": "What is called as saving money ?",
+      "choice1": "To spend money",
+      "choice2": "Save and plan money",
+      "choice3": "To lend money",
+     
+      "answer": 2
+    },
+    {
+      "question": "How do you plan to save money ?",
+      "choice1": "Have a money-saver app",
+      "choice2": "Savings accounts or investments",
+      "choice3": "All of the above",
+      "answer": 3
+    },
+    {
+      "question": "How would you save money ?",
+      "choice1": "Party all time ",
+      "choice2": "Monitor expenses in every single thing",
+      "choice3": "Spent all money in useless things",
+      
+      "answer": 2
+    }
+  ]

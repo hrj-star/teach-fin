@@ -1,35 +1,25 @@
-//const inputs = document.querySelectorAll(".input");
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const currentTheme = localStorage.getItem('theme');
 
-
-var miniage = document.getElementById('mini_age'); 
-var teenage = document.getElementById('teen_age'); 
-
-function mini_age() {
-	alert("Hello Mini");
+if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+  
+    if (currentTheme === 'dark') {
+        toggleSwitch.checked = true;
+    }
 }
 
-function teen_age() {
-	alert("Hello Teen");
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+    }
+    else { 
+      document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('theme', 'light');
+    }    
 }
 
-function addcl(){
-	let parent = this.parentNode.parentNode;
-	parent.classList.add("focus");
-}
-
-function remcl(){
-	let parent = this.parentNode.parentNode;
-	if(this.value == ""){
-		parent.classList.remove("focus");
-	}
-}
+toggleSwitch.addEventListener('change', switchTheme, false);
 
 
-function pageRedirect(url) {
-	window.location.href = url;
-  } 
-
-inputs.forEach(input => {
-	input.addEventListener("focus", addcl);
-	input.addEventListener("blur", remcl);
-});

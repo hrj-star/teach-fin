@@ -1,0 +1,25 @@
+[
+    {
+      "question": "What do people get when they work ?",
+      "choice1": "Nothing , so don't work :(",
+      "choice2": "Money  or salary",
+      "choice3": "None of the above",
+     
+      "answer": 2
+    },
+    {
+      "question": "Work is Workship ?",
+      "choice1": "True",
+      "choice2": "False",
+      "choice3": "May be , may be not !",
+      "answer": 1
+    },
+    {
+      "question": "Whisch of this is called as work ?",
+      "choice1": "Househelp doing the chores",
+      "choice2": "Dad goes to office",
+      "choice3": "All of the above",
+      
+      "answer": 3
+    }
+  ]

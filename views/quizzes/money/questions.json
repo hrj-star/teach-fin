@@ -1,0 +1,27 @@
+
+[
+    {
+      "question": "You should always spend money ?",
+      "choice1": "Only when it is needed",
+      "choice2": "Yes",
+      "choice3": "Spend money always",
+     
+      "answer": 1
+    },
+    {
+      "question": "How is money earned ?",
+      "choice1": "Its a gift from ATM !",
+      "choice2": "By working",
+      "choice3": "By spending",
+      "answer": 2
+    },
+    {
+      "question": "You can save money by ?",
+      "choice1": "Discounts Coupons",
+      "choice2": "Piggy Bank",
+      "choice3": "All of the above",
+
+      
+      "answer": 3
+    }
+  ]

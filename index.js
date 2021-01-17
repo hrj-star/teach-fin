@@ -107,6 +107,99 @@ app
     res.render("./quizzes/saving/saving", { users: logged });
   })
 
+  .get("/economy_teenage_quiz", (req, res) => {
+
+    res.render("./quizzes/economy_teenage/economy_teenage_quiz", { users: logged });
+  })
+
+  .get("/economy_teenage", (req, res) => {
+
+    res.render("./quizzes/economy_teenage/economy_teenage", { users: logged });
+  })
+
+  .get("/money_quiz", (req, res) => {
+
+    res.render("./quizzes/money/moneyquiz", { users: logged });
+  })
+
+  .get("/money", (req, res) => {
+
+    res.render("./quizzes/money/money", { users: logged });
+  })
+
+  .get("/workquiz", (req, res) => {
+
+    res.render("./quizzes/work/workquiz", { users: logged });
+  })
+
+  .get("/work", (req, res) => {
+
+    res.render("./quizzes/work/work", { users: logged });
+  })
+
+  .get("/spendingquiz", (req, res) => {
+
+    res.render("./quizzes/spending/spendingquiz", { users: logged });
+  })
+
+  .get("/spending", (req, res) => {
+
+    res.render("./quizzes/spending/spending", { users: logged });
+  })
+
+  .get("/budgetingquiz", (req, res) => {
+
+    res.render("./quizzes/budgeting/budgetingquiz", { users: logged });
+  })
+
+  .get("/budgeting", (req, res) => {
+
+    res.render("./quizzes/budgeting/budgeting", { users: logged });
+  })
+
+
+  .get("/taxquiz", (req, res) => {
+
+    res.render("./quizzes/tax/taxquiz", { users: logged });
+  })
+
+  .get("/tax", (req, res) => {
+
+    res.render("./quizzes/tax/tax", { users: logged });
+  })
+
+  .get("/saving2quiz", (req, res) => {
+
+    res.render("./quizzes/saving2/saving2quiz", { users: logged });
+  })
+
+  .get("/saving2", (req, res) => {
+
+    res.render("./quizzes/saving2/saving2", { users: logged });
+  })
+
+
+
+  .get("/investmentquiz", (req, res) => {
+
+    res.render("./quizzes/investment/investmentquiz", { users: logged });
+  })
+
+  .get("/investment", (req, res) => {
+
+    res.render("./quizzes/investment/investment", { users: logged });
+  })
+  
+
+  .get("/retirementquiz", (req, res) => {
+
+    res.render("./quizzes/retirement/retirementquiz", { users: logged });
+  })
+
+  .get("/retirement", (req, res) => {
+
+    res.render("./quizzes/retirement/retirement", { users: logged });
+  })
 
   .get("/home", (req, res) => {
     res.render("home", { users: logged });

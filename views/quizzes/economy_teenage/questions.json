@@ -1,0 +1,27 @@
+
+[
+    {
+      "question": "What is inflation ?",
+      "choice1": "Economy Growth",
+      "choice2": "Increase in prices",
+      "choice3": "Decrease in prices",
+     
+      "answer": 2
+    },
+    {
+      "question": "There is term opposite to 'inflation'. What is that ?",
+      "choice1": "No such term",
+      "choice2": "Deflation",
+      "choice3": "GDP",
+      "answer": 2
+    },
+    {
+      "question": "Is GDP related to Economy?",
+      "choice1": "No,never ",
+      "choice2": "Yes,increase in GDP = Better Economy",
+      "choice3": "I do not know !",
+
+      
+      "answer": 2
+    }
+  ]

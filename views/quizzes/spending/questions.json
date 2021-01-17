@@ -1,0 +1,26 @@
+[
+    {
+      "question": "What are discounts ? ",
+      "choice1": "Chips packets at rate less than marked",
+      "choice2": "Lending chocolates and getting something in exchange",
+      "choice3": "Sell toys",
+     
+      "answer": 1
+    },
+    {
+      "question": "When will you buy toys ?",
+
+      "choice1": "Anytime",
+      "choice2": "Season sale !",
+      "choice3": "Daily",
+      "answer": 2
+    },
+    {
+      "question": "You get your haircut.",
+      "choice1": "Need",
+      "choice2": "Service",
+      "choice3": "Want",
+      
+      "answer": 2
+    }
+  ]

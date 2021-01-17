@@ -1,0 +1,27 @@
+
+[
+    {
+      "question": "Is Investment Good ?",
+      "choice1": "Yes",
+      "choice2": "Nah !",
+      "choice3": "Why to Invest ? Live in present :)",
+     
+      "answer": 1
+    },
+    {
+      "question": "Define Investing",
+      "choice1": "Saving in a way to earn food money",
+      "choice2": "Saving in a way to earn income",
+      "choice3": "Saving in a wat to earn car money",
+      "answer": 2
+    },
+    {
+      "question": "A bond is a(n) _____________ instrument.",
+      "choice1": "Equity",
+      "choice2": "Debt",
+      "choice3": "None",
+
+      
+      "answer": 2
+    }
+  ]

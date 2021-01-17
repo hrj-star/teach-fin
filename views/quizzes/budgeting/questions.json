@@ -1,0 +1,26 @@
+
+[
+    {
+      "question": "What goes into a budget?",
+      "choice1": "The amount of money you have saved",
+      "choice2": "The prices of the things you want",
+      "choice3": "Money earned and money spent",
+     
+      "answer": 3
+    },
+    {
+      "question": "Why do people say they can't afford something when they actually do have enough money to pay for it?",
+      "choice1": "They are lying.",
+      "choice2": "They are using their budget to make sure they meet their needs and work toward big goals.",
+      "choice3": "They don't know how to count money.",
+      "answer": 2
+    },
+    {
+      "question": "How would you save money ?",
+      "choice1": "Party all time ",
+      "choice2": "Have a Piggy Bank",
+      "choice3": "Spent all money in buying toffies",
+      
+      "answer": 2
+    }
+  ]

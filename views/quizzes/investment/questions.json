@@ -1,0 +1,27 @@
+
+[
+    {
+      "question": "Is Investment Good ?",
+      "choice1": "Yes",
+      "choice2": "Nah !",
+      "choice3": "Why to Invest ? Live in present :)",
+     
+      "answer": 1
+    },
+    {
+      "question": "Define Investing",
+      "choice1": "Saving in a way to earn food money",
+      "choice2": "Saving in a way to earn income",
+      "choice3": "Saving in a wat to earn car money",
+      "answer": 2
+    },
+    {
+      "question": "Define Mutual Fund",
+      "choice1": "Collection of bonds",
+      "choice2": "Collection of stocks",
+      "choice3": "Collection of stocks and bonds",
+
+      
+      "answer": 3
+    }
+  ]

@@ -1,19 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Patrick+Hand&display=swap');
 
 
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400&display=swap');.infotext{
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Handlee&family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Handlee&family=Milonga&family=Patrick+Hand&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+.infotext{
+   /* font-family: 'Kalam', sans-serif;*/
     font-family: 'Comfortaa', sans-serif;
-    font-size:30px;
+    font-size:32px;
     display:inline-block;
     margin:0px;
     padding:0px;
+    color: var(--font-color);
+    resize: both;
+    
 }
 
+.infotext2{
+    /* font-family: 'Kalam', sans-serif;*/
+     font-family: 'Comfortaa', sans-serif;
+     font-size:20px;
+     display:inline-block;
+     margin:0px;
+     padding:0px;
+     color: var(--font-color);
+     resize: both;
+     
+ }
+
 .paratext{
-    font-family: 'Kalam', sans-serif;
+   /* font-family: 'Comfortaa', sans-serif;
+    font-family: 'Milonga',sans-serif;;*/
+    font-family: 'Lora', serif;
     padding-right: 30px;
     padding-left: 30px;
     font-size:20px;
-    color: black;
+    color: var(--text-col);
     text-decoration: none;
 
+}
+
+
+.divbox {
+    border-radius: 10px;
+    border: 5px solid rgb(86, 165, 235, 0.25);
+    min-height: 280px;
+    max-height: 320px;
+    width: 252px;
+    margin: 10px;
+    display: inline-block;
+    resize: both;
+   
+    font-family: 'Comfortaa';
+    text-align:center;
 }
